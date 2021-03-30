@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>라이프 시어터, 메가박스</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="js/prefixfree.jquery.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <header>
+      <div id="center">
+      <div class="header_top">
+        <ul class="header_top_left">
+          <li><a href="#">VIP LOUNGE</a></li>
+          <li><a href="#">멤버십</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+        <ul class="header_top_right">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">빠른예매</a></li>
+        </ul>
+      </div>
+      <div class="header_bottom">
+        <div class="sitemap_wrap">
+          <input type="checkbox" name="menu" id="toggle_btn">
+          <label for="toggle_btn">
+            <img src="images/header_sitemap.png" alt="site map" title="site map">
+          </label>
+          <div id="sitemap">
+            <div id="center">
+            <h1>SITE MAP</h1>
+            <ul class="sitemap_menu">
+              <li><a href="#">영화</a>
+                <ul>
+                  <li><a href="#">전체영화</a></li>
+                  <li><a href="#">큐레이션</a></li>
+                  <li><a href="#">영화제</a></li>
+                  <li><a href="#">무비포스트</a></li>
+                </ul>
+              </li>
+              <li><a href="#">예매</a>
+                <ul>
+                  <li><a href="#">빠른예매</a></li>
+                  <li><a href="#">상영시간표</a></li>
+                  <li><a href="#">더 부티크 프라이빗 예매</a></li>
+                </ul>
+                </li>
+              <li><a href="#">극장</a>
+                <ul>
+                  <li><a href="#">전체극장</a></li>
+                  <li><a href="#">특별관</a></li>
+                </ul>
+                </li>
+              <li><a href="#">이벤트</a>
+                <ul>
+                  <li><a href="#">진행중 이벤트</a></li>
+                  <li><a href="#">지난 이벤트</a></li>
+                  <li><a href="#">당첨자발표</a></li>
+                </ul>
+                </li>
+              <li><a href="#">스토어</a>
+                <ul>
+                  <li><a href="#">새로운 상품</a></li>
+                  <li><a href="#">메가티켓</a></li>
+                  <li><a href="#">메가찬스</a></li>
+                  <li><a href="#">팝콘/음료/굿즈</a></li>
+                </ul>
+                </li>
+              <li><a href="#">나의 메가박스</a>
+                <ul>
+                  <li><a href="#">나의 메가박스 홈</a></li>
+                  <li><a href="#">예매/구매내역</a></li>
+                  <li><a href="#">영화관람권</a></li>
+                  <li><a href="#">스토어교환권</a></li>
+                  <li><a href="#">할인/제휴쿠폰</a></li>
+                  <li><a href="#">멤버십포인트</a></li>
+                  <li><a href="#">나의 무비스토리</a></li>
+                  <li><a href="#">나의 이벤트 응모내역</a></li>
+                  <li><a href="#">나의 문의내역</a></li>
+                  <li><a href="#">자주쓰는 할인 카드</a></li>
+                  <li><a href="#">회원정보</a></li>
+                </ul>
+                </li>
+              <li><a href="#">혜택</a>
+                <ul>
+                  <li><a href="#">멤버십 안내</a></li>
+                  <li><a href="#">VIP LOUNGE</a></li>
+                  <li><a href="#">제휴/할인</a></li>
+                </ul>
+                </li>
+              <li><a href="#">고객센터</a>
+                <ul>
+                  <li><a href="#">고객센터 홈</a></li>
+                  <li><a href="#">자주묻는질문</a></li>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">1:1문의</a></li>
+                  <li><a href="#">단체/대관문의</a></li>
+                  <li><a href="#">분실물문의</a></li>
+                </ul>
+                </li>
+              <li><a href="#">회사소개</a>
+                <ul>
+                  <li><a href="#">메가박스소개</a></li>
+                  <li><a href="#">사회공헌</a></li>
+                  <li><a href="#">홍보자료</a></li>
+                  <li><a href="#">제휴/부대사업문의</a></li>
+                  <li><a href="#">온라인제보센터</a></li>
+                  <li><a href="#">IR자료</a></li>
+                  <li><a href="#">인재채용</a></li>
+                  <li><a href="#">윤리경영</a></li>
+                </ul>
+                </li>
+              <li><a href="#">이용정책</a>
+                <ul>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">스크린수배정에관한기준</a></li>
+                </ul>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <a href="#"><img src="images/header_search.png" alt="search" title="검색"></a>
+        <ul class="menu">
+          <li><a href="#">영화</a>
+            <ul class="submenu">
+              <li><a href="#">전체영화</a></li>
+              <li><a href="#">N스크린</a></li>
+              <li><a href="#">큐레이션</a></li>
+              <li><a href="#">무비포스트</a></li>
+            </ul>
+          </li>
+          <li><a href="#">예매</a>
+            <ul class="submenu">
+              <li><a href="#">빠른예매</a></li>
+              <li><a href="#">상영시간표</a></li>
+              <li><a href="#">더 부티크 프라이빗 예매</a></li>
+            </ul>
+          </li>
+          <li><a href="#">극장</a>
+            <ul class="submenu">
+              <li><a href="#">전체극장</a></li>
+              <li><a href="#">특별관</a></li>
+            </ul>
+          </li>
+        </ul>
+        <h1><a href="index.html"><img src="images/logo-white_new.png" alt="MEGABOX : Life Theater"></a></h1>
+        <ul class="menu">
+          <li><a href="#">이벤트</a>
+            <ul class="submenu">
+              <li><a href="#">진행중 이벤트</a></li>
+              <li><a href="#">지난 이벤트</a></li>
+              <li><a href="#">당첨자발표</a></li>
+            </ul>
+          </li>
+          <li><a href="#">스토어</a></li>
+          <li><a href="#">혜택</a>
+            <ul class="submenu">
+              <li><a href="#">메가박스 멤버십</a></li>
+              <li><a href="#">제휴/할인</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#"><img src="images/header_schedule.png" alt="schedule" title="상영시간표"></a>
+        <a href="#"><img src="images/header_mypage.png" alt="mypage" title="나의 메가박스"></a>
+      </div>
+      </header>
+    </header>
+    <!-- box office -->
+    <div class="boxoffice">
+      <div id="center">
+        <h2>박스오피스</h2>
+        <a href="#" class="more"><img src="images/ico-more-cross-gray.png" alt="more" title="박스오피스 더보기"></a>
+        <ul class="boxoffice_list">
+          <li>
+            <a href="#">
+              <div class="boxoffice_txt">
+                <p>
+                  2021년 전 세계가 기다린 어느 한국 가족의 원더풀한 이야기
+                  <br>"미나리는 어디서든 잘 자라"
+                </p>
+                <p class="grade">
+                  관람평 <strong>8.7</strong>
+                </p>
+              </div>
+              <div class="boxoffice_img">
+                <p class="rank">1</p>
+              </div>
+            </a>
+            <div class="boxoffice_btn">
+              <p>♡ 759</p>
+              <p><a href="#">예매</a></p>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <div class="boxoffice_txt">
+                <p>
+                  마지막 반지를 차지하는 자, <br>모든 힘을 지배하게 될 것이다!
+                </p>
+                <p class="grade">
+                  관람평 <strong>0</strong>
+                </p>
+              </div>
+              <div class="boxoffice_img">
+                <p class="rank">2</p>
+              </div>
+            </a>
+            <div class="boxoffice_btn">
+              <p>♡ 90</p>
+              <p><a href="#">예매</a></p>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <div class="boxoffice_txt">
+                <p>
+                  인간과 드래곤이 평화롭게 공존하던 신비의 땅, 쿠만드라 왕국
+                </p>
+                <p class="grade">
+                  관람평 <strong>9</strong>
+                </p>
+              </div>
+              <div class="boxoffice_img">
+                <p class="rank">3</p>
+              </div>
+            </a>
+            <div class="boxoffice_btn">
+              <p>♡ 410</p>
+              <p><a href="#">예매</a></p>
+            </div>
+          </li>
+        </ul>
+        <ul class="quick_list">
+          <li>
+            <form action="" method="get">
+              <input type="search" placeholder="검색어를 입력해주세요" onfocus="this.placeholder=''">
+            </form>
+            <a href="#"><img src="images/search.png" alt="search"></a>
+          </li>
+          <li><a href="#"><img src="images/ico-schedule-main.png" alt="schedule"><span>상영시간표</span></a></li>
+          <li><a href="#"><img src="images/ico-quick-reserve-main.png" alt="quick reserve"><span>빠른예매</span></a></li>
+        </ul>
+        <div class="mouse">
+          <div class="mouseline"></div>
+          <img src="images/ico-mouse.png" alt="scroll">
+        </div>
+      </div> 
+    </div>
+    <!-- benefit -->
+    <div class="benefit">
+      <div id="center">
+        <h2>혜택</h2>
+        <a href="#" class="more"><img src="images/ico-more-cross-gray.png" alt="more" title="혜택 더보기"></a>
+        <ul class="benefit_list">
+          <li>
+            <a href="#">
+              <p class="benefit_img"><img src="images/benefit01.jpg" alt="originalticket"></p>
+              <p class="benefit_txt">메가박스 오리지널 티켓 Re.4 &lt;반지의 제왕 시리즈&gt;<span>2021.03.11 ~ 2021.03.31</span></p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="benefit_img"><img src="images/benefit02.jpg" alt="originalticket"></p>
+              <p class="benefit_txt">메가박스 오리지널 티켓 No.24 &lt;미나리&gt;<span>2021.03.03 ~ 2021.03.31</span></p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="benefit_img"><img src="images/benefit03.jpg" alt="originalticket"></p>
+              <p class="benefit_txt">메가박스 오리지널 티켓 No.23 &lt;톰과제리&gt;<span>2021.02.24 ~ 2021.03.14</span></p>
+            </a>
+          </li>
+        </ul>
+        <ul class="benefit_menu">
+          <li>
+            <a href="#">
+              <img src="images/benefit_vip.png" alt="vip">
+              <p>VIP LOUNGE</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/benefit_membership.png" alt="membership">
+              <p>멤버십</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/benefit_card.png" alt="card">
+              <p>할인카드안내</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/benefit_event.png" alt="event">
+              <p>이벤트</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/benefit_store.png" alt="store">
+              <p>스토어</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- curation -->
+    <div class="curation">
+      <div id="center">
+        <h2>큐레이션</h2>
+        <a href="#" class="more"><img src="images/ico-more-cross-gray.png" alt="more" title="큐레이션 더보기"></a>
+        <div class="curation_wrap">
+          <div class="curation_left">
+            <div class="curation_img"><img src="images/Loving_Vincent.jpg" alt="Loving Vincent"></div>
+            <ul>
+              <li><a href="#">상세정보</a></li>
+              <li><a href="#">상영예정</a></li>
+            </ul>
+          </div>
+          <div class="curation_right">
+            <h3>Loving Vincent</h3>
+            <p>
+              “당신은 그의 삶에 대해 무엇을 알죠?”
+              <br>살아생전 단 한 점의 그림만을 팔았던 화가 ‘빈센트’의 죽음 후 1년.
+              <br>‘아르망’은 그의 그림을 사랑했던 아버지의 부탁을 받고,
+              <br>‘빈센트’가 마지막으로 살았던 장소로 찾아가 미스터리한 죽음을 추적해 나간다.
+            </p>
+            <ul>
+              <li><a href="#">
+                <div class="curation_img"><img src="images/Le_Nozze_Di_Figaro.jpg" alt="Le Nozze Di Figaro"></div>
+                <p>피가로의 결혼</p>
+              </a></li>
+              <li><a href="#">
+                <div class="curation_img"><img src="images/Three_Sisters.jpg" alt="Three Sisters"></div>
+                <p>세자매</p>
+              </a></li>
+              <li><a href="#">
+                <div class="curation_img"><img src="images/Helene.png" alt="elene"></div>
+                <p>헬렌</p>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- info -->
+    <div class="info">
+      <div id="center">
+        <h2>메가박스 안내</h2>
+        <ul class="info_list">
+          <li><a href="#" title="Dolby Cinema"></a></li>
+          <li><a href="#" title="THE BOUTIQUE PRIVATE"></a></li>
+          <li><a href="#" title="THE BOUTIQUE"></a></li>
+          <li><a href="#" title="MX"></a></li>
+          <li><a href="#" title="COMFORT"></a></li>
+          <li><a href="#" title="MEGABOX KIDS"></a></li>
+        </ul>
+        <div class="info_notice">
+          <p>지점</p>
+          <p><a href="#">[신촌] APP 온라인 제휴 쿠폰 종료 안내</a></p>
+          <p>2021.03.08</p>
+          <p><a href="#">더보기 &gt;</a></p>
+        </div>
+        <ul class="customer_center">
+          <li>
+            <a href="#">
+              <img src="images/customer_center_customer.png" alt="customer">
+              <p>고객센터</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/customer_center_faq.png" alt="faq">
+              <p>자주 묻는 질문</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/customer_center_qna.png" alt="qna">
+              <p>1:1 문의</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/customer_center_group.png" alt="group">
+              <p>단체/대관 문의</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/customer_center_lost.png" alt="lost">
+              <p>분실물 문의/접수</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/customer_center_boutique.png" alt="boutique">
+              <p>
+                더 부티크 프라이빗
+                <br>대관예매
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div id="center">
+        <div class="footer_top">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">사회공헌</a></li>
+            <li><a href="#">제휴/광고/부대사업문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">윤리경영</a></li>
+          </ul>
+          <a href="#"><img src="images/search.png" alt="search">극장찾기</a>
+        </div>
+        <div class="footer_bottom">
+          <h1><img src="images/logo-opacity.png" alt="MEGABOX : Life Theater"></h1>
+          <address>
+            서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070
+            <br>대표자명 김진선 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호
+            <br>COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+          </address>
+          <ul>
+            <li><a href="#"><img src="images/ico-twitter.png" alt="twitter" title="twitter"></a></li>
+            <li><a href="#"><img src="images/ico-facebook.png" alt="facebook" title="facebook"></a></li>
+            <li><a href="#"><img src="images/ico-instagram.png" alt="instagram" title="instagram"></a></li>
+            <li><a href="#"><img src="images/ico-googleplay.png" alt="googleplay" title="googleplay"></a></li>
+            <li><a href="#"><img src="images/ico-appstore.png" alt="appstore" title="appstore"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
